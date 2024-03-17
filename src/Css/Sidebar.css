@@ -1,0 +1,107 @@
+.df{
+	display: flex;
+}
+
+.jcsb{
+	justify-content: space-between;
+}
+
+
+.sideconatiner{
+	width: 17%;
+	padding: 0 10px;
+}
+
+.img1{
+	border-radius: 10px;
+	width: 40px;
+}
+
+.img2{
+	border-radius: 50%;
+	width: 30px;
+}
+
+.shead{
+	align-items: center;
+	height: 60px;
+}
+
+.textlight{
+	color: rgb(162, 154, 154);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.textdark{
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.headings{
+	margin-left: 10px;
+}
+
+.sideconatiner{
+	border: 1px solid rgb(218, 208, 208);
+	border-radius: 15px;
+}
+
+.x1{
+	background-color: rgb(235, 234, 234);
+	border-radius: 7px;
+	width: 40px;
+	height: 20px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.menu1{
+	padding: 8px;
+	align-items: center;
+	
+}
+
+.menu1 svg{
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+.menus1{
+	border: 1px solid rgb(218, 208, 208);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.lastm{
+	border: 1px solid rgb(218, 208, 208);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: rgb(103, 92, 92);
+	padding: 12px;
+}
+
+.folder{
+	padding: 10px;
+}
+
+
+.downsvg{
+	position: relative;
+	top: -2px !important;
+	font-size: 12px;
+}
+
+.invite{
+	margin-top: 100px;
+}
+
+.menu1:hover{
+	background-color: rgb(224, 219, 219);
+	cursor: pointer;
+	width: 95%;
+	height: 20px;
+	border-radius: 5px;
+}
