@@ -92,10 +92,9 @@ h3 {
 
 .title {
 	border: 1px solid rgb(218, 208, 208);
-	padding-right: 100px;
 	align-items: center;
 	display: flex;
-	width: 20%;
+	min-width: 15%;
 	padding: 10px;
 }
 
@@ -158,4 +157,67 @@ h3 {
 	color: rgb(255, 170, 12);
 	border: 1px solid rgb(242, 201, 127);
 	padding: 0 2px;
+
+
 }
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+	.title1{
+		width: 98.5%;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+
+	
+	.ritems1{
+		width: 34%;
+	}
+	.ritems{
+		width: 30%;
+	}
+	.title{
+		width: 14%;
+		font-size: 12px;
+	}
+	.textdark{
+		font-size: 12px;
+
+	}
+	
+	.title1{
+		width: 98.5%;
+	}
+
+	.h11 {
+		display: flex;
+		align-items: center;
+		position: relative;
+		left: 18px;
+		width: 75%;
+	}
+
+	.menu1:hover {
+		background-color: rgb(224, 219, 219);
+		cursor: pointer;
+		width: 90%;
+		height: 20px;
+		border-radius: 5px;
+	}
+	.main{
+		width: 79%;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.title1{
+		width: 93%;
+	}
+	.main{
+		width: 78%;
+	}
+
+}
+

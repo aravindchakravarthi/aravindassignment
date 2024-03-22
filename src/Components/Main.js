@@ -48,7 +48,7 @@ const Main = (props) => {
 
 				<div className='mainhead1 df jcsb'>
 					<div className='df jcse litems'>
-						<div className='maintext textdark df'><TbCategory /> All brands <FaSortDown /></div>
+						<div className='maintext textdark df'><TbCategory /> All_brands <FaSortDown /></div>
 						<div className='maintext textdark df padl'>Desk <FaSortDown /></div>
 						<div className='maintext textdark df padl'>Tags<FaSortDown /></div>
 						<div className='maintext textdark df'><BiSortAlt2 /> Sort<FaSortDown /></div>
