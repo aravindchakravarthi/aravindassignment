@@ -12,12 +12,12 @@ import { TbHelp } from "react-icons/tb";
 
 
 const Sidebar = (props) => {
-    const [datas, setData] = useState(true);
+	const [datas, setData] = useState(true);
 
-    function handleData(data) {
-        setData(data);
-        props.onData(data);
-    }
+	function handleData(data) {
+		setData(data);
+		props.onData(data);
+	}
 
 
 	return (
@@ -72,53 +72,53 @@ const Sidebar = (props) => {
 			</div>
 
 			<div className='jcsb df folder'>
-			<div className='textlight '>FOLDERS</div>
-			<FaPlus className='textlight'/>
+				<div className='textlight '>FOLDERS</div>
+				<FaPlus className='textlight' />
 			</div>
 
 			<div className='menu1 df jcsb' onClick={() => handleData(true)}>
 				<div className='df'><MdOutlineFolder />
-				<div className='textdark'>Products</div>
+					<div className='textdark'>Products</div>
 				</div>
-				<div><FaCaretDown className='downsvg'/></div>
+				<div><FaCaretDown className='downsvg' /></div>
 
 			</div>
 			<div className='menu1 df jcsb' onClick={() => handleData(false)}>
 				<div className='df'><MdOutlineFolder />
-				<div className='textdark'>Sales</div>
+					<div className='textdark'>Sales</div>
 				</div>
-				<div><FaCaretDown className='downsvg'/></div>
+				<div><FaCaretDown className='downsvg' /></div>
 
 			</div>
 			<div className='menu1 df jcsb' onClick={() => handleData(false)}>
 				<div className='df'><MdOutlineFolder />
-				<div className='textdark'>Design</div>
+					<div className='textdark'>Design</div>
 				</div>
-				<div><FaCaretDown className='downsvg'/></div>
+				<div><FaCaretDown className='downsvg' /></div>
 
 			</div>
 			<div className='menu1 df jcsb' onClick={() => handleData(false)}>
 				<div className='df'><MdOutlineFolder />
-				<div className='textdark'>Office</div>
+					<div className='textdark'>Office</div>
 				</div>
 
 			</div>
 			<div className='menu1' onClick={() => handleData(false)}>
 				<div className='df'><MdOutlineFolder />
-				<div className='textdark'>Legal</div>
+					<div className='textdark'>Legal</div>
 				</div>
 
 			</div>
 			<div className='menu1 invite'>
 				<div className='df'>
-				< MdOutlinePersonAddAlt/>
-				<div className='textdark'>Invite teammates</div>
+					< MdOutlinePersonAddAlt />
+					<div className='textdark'>Invite teammates</div>
 				</div>
 			</div>
 			<div className='menu1'>
 				<div className='df'>
-				< TbHelp/>
-				<div className='textdark'>Help and first steps</div>
+					< TbHelp />
+					<div className='textdark'>Help and first steps</div>
 				</div>
 			</div>
 		</div>

@@ -1,120 +1,161 @@
-.setting{
+.setting {
 	border-radius: 10px;
 	border: 1px solid rgb(218, 208, 208);
 	padding: 3px;
 	width: 20px;
+	box-shadow: 1px 1px 8px 1px rgb(231, 229, 229);
+
 
 }
 
-.main{
+.main {
 	width: 81%;
 }
-.jcsb{
+
+.jcsb {
 	justify-content: space-between;
 }
 
-.setting svg{
+.setting svg {
 	position: relative;
 	top: 2px;
 	left: 2px;
 }
 
-.search{
+.search {
 	border-radius: 10px;
 	border: 1px solid rgb(218, 208, 208);
 	padding: 3px;
 	height: 30px;
-	}
+	box-shadow: 1px 1px 8px 1px rgb(231, 229, 229);
+}
 
-	.ritems{
-		justify-content: space-around;
-		width: 22%;
-	}
+.ritems {
+	justify-content: space-around;
+	width: 22%;
+}
 
-	.mainhead{
-		border: 1px solid rgb(218, 208, 208);
-		padding: 12px 20px;
-		align-items: center;
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		
-	}
+.mainhead {
+	border: 1px solid rgb(218, 208, 208);
+	padding: 12px 20px;
+	align-items: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 
-	h3{
-		font-size: 20px;
-	}
+}
 
-	.maintext{
-		border: 1px solid rgb(218, 208, 208);
-		border-radius: 10px;
-		align-items: center;
-		height: 30px;
+h3 {
+	font-size: 20px;
+}
 
-	}
+.maintext {
+	border: 1px solid rgb(218, 208, 208);
+	border-radius: 10px;
+	align-items: center;
+	height: 30px;
+	box-shadow: 1px 1px 8px 1px rgb(231, 229, 229);
 
-	.maintext svg{
-		padding: 0 5px;
-	}
 
-	.jcse{
-		justify-content: space-evenly;
-	}
+}
 
-	.litems{
-		width: 40%;
-	}
+.maintext svg {
+	padding: 0 5px;
+}
 
-	.mainhead1{
-		border: 1px solid rgb(218, 208, 208);
-		padding: 12px 15px;
-		align-items: center;
-		
-	}
+.jcse {
+	justify-content: space-evenly;
+}
 
-	.ritems1{
-		width: 24%;
-		justify-content: space-evenly;
-	}
+.litems {
+	width: 40%;
+}
 
-	.padl{
-		padding-left: 5px;
-	}
+.mainhead1 {
+	border: 1px solid rgb(218, 208, 208);
+	padding: 12px 15px;
+	align-items: center;
 
-	.title1{
-		width: 100%;
-	}
+}
 
-	.title{
-		border: 1px solid rgb(218, 208, 208);
-		padding-right: 100px;
-		align-items: center;
-		display: flex;
-		width: 20%;
-		padding: 10px ;
-	}
+.ritems1 {
+	width: 24%;
+	justify-content: space-evenly;
+}
 
-	.title2{
-		border: 1px solid rgb(218, 208, 208);
+.padl {
+	padding-left: 5px;
+}
 
-	}
+.title1 {
+	width: 100%;
+}
 
-	.title1 img{
-		width: 22px;
-		padding: 0 5px;
-	}
+.title {
+	border: 1px solid rgb(218, 208, 208);
+	padding-right: 100px;
+	align-items: center;
+	display: flex;
+	width: 20%;
+	padding: 10px;
+}
 
-	.img3{
-		width: 100px !important;
-		border-radius: 15px;
-	}
+.title2 {
+	border: 1px solid rgb(218, 208, 208);
 
-	.tag{
-		background-color: rgb(234, 226, 226);
-		border-radius: 7px;
-	}
-	.h11{
-		display: flex;
-		align-items: center;
-		position: relative;
-		left: -200px;
-	}
+}
+
+.title1 img {
+	width: 22px;
+	padding: 0 5px;
+}
+
+.img3 {
+	width: 100px !important;
+	border-radius: 15px;
+}
+
+.tag {
+	background-color: rgb(234, 226, 226);
+	border-radius: 7px;
+	border: 1px solid rgb(195, 188, 188);
+	padding: 0 2px;
+}
+
+.h11 {
+	display: flex;
+	align-items: center;
+	position: relative;
+	left: -200px;
+}
+
+.param1 {
+	background-color: rgb(232, 217, 241);
+	color: rgb(69, 3, 131);
+	border-radius: 7px;
+	border: 1px solid rgb(146, 73, 215);
+	padding: 0 2px;
+}
+
+.param2 {
+	background-color: rgb(244, 217, 217);
+	border-radius: 7px;
+	color: rgb(201, 15, 15);
+	border: 1px solid rgb(222, 99, 99);
+	padding: 0 2px;
+}
+
+.param3 {
+	background-color: rgb(208, 244, 229);
+	border-radius: 7px;
+	color: rgb(12, 116, 73);
+	border: 1px solid rgb(54, 182, 129);
+	padding: 0 2px;
+}
+
+.param4 {
+	background-color: rgb(249, 237, 216);
+	border-radius: 7px;
+	color: rgb(255, 170, 12);
+	border: 1px solid rgb(242, 201, 127);
+	padding: 0 2px;
+}

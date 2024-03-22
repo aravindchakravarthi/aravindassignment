@@ -5,18 +5,18 @@ export const datas = [{
 	category : "Automation",
 	tags: '#DigitalTransformation',
 	next:'in 30 min',
-	id:1,
+	id:'param1',
 	img:"wfx.png",
 	img2:"6.png"
 },
 {
 	brand : 'Shopify',
-	descr : 'Develop a personalized',
+	descr : 'Introduecd a cloud',
 	member :'',
 	category : "E-commerce",
 	tags: '#onlineshopingtion',
 	next:'in 50 min',
-	id:2,
+	id:'param2',
 	img:"shopify.png",
 	img2:"3.png"
 
@@ -24,12 +24,12 @@ export const datas = [{
 },
 {
 	brand : 'Paypal',
-	descr : 'Develop a personalized',
+	descr : 'Develop a mobile app',
 	member :'',
 	category : "Automation",
 	tags: '#Businespartnership',
 	next:'in 6 hrs',
-	id:3,
+	id:'param3',
 	img:"paypal.png",
 	img2:"6.png"
 
@@ -37,12 +37,12 @@ export const datas = [{
 },
 {
 	brand : 'Disney',
-	descr : 'Develop a personalized',
+	descr : 'This program include',
 	member :'',
 	category : "Technology Saas",
 	tags: '#Logitech',
 	next:'in 30 min',
-	id:4,
+	id:'param4',
 	img:"disney.png",
 	img2:"6.png"
 
@@ -50,12 +50,12 @@ export const datas = [{
 },
 {
 	brand : 'Mailchirp',
-	descr : 'Develop a personalized',
+	descr : 'Introduced a B2B solut',
 	member :'',
 	category : "Automation",
 	tags: '#DigitalTransformation',
 	next:'in 30 min',
-	id:5,
+	id:'param1',
 	img:"mail.png",
 	img2:"3.png"
 
@@ -68,7 +68,7 @@ export const datas = [{
 	category : "Automation",
 	tags: '#Cyclic',
 	next:'in 1 day',
-	id:6,
+	id:'param3',
 	img:"google.png",
 	img2:"3.png"
 
@@ -76,12 +76,12 @@ export const datas = [{
 },
 {
 	brand : 'Microsoft',
-	descr : 'Develop a personalized',
+	descr : 'The tool would analyze',
 	member :'',
 	category : "Finance",
 	tags: '#SmartFinance',
 	next:'in 20 min',
-	id:7,
+	id:'param2',
 	img:"micro.png",
 	img2:"6.png"
 
@@ -89,12 +89,12 @@ export const datas = [{
 },
 {
 	brand : 'Invision',
-	descr : 'Develop a personalized',
+	descr : 'Launch an advisory ',
 	member :'',
 	category : "Automation",
 	tags: '#DigitalTransformation',
 	next:'in 30 min',
-	id:8,
+	id:'param4',
 	img:"invisin.png",
 	img2:"6.png"
 
